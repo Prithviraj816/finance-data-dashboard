@@ -59,8 +59,8 @@ This ensures proper separation of responsibilities and prevents unauthorized ope
 - PATCH /api/records/:id  -> Update record (Admin only)
 - DELETE /api/records/:id -> Delete record (Admin only) 
 
-3. For Dashboard
-GET /api/dashboard/summary → Get financial summary (Admin, Analyst and Viewer)
+## For Dashboard
+- GET /api/dashboard/summary → Get financial summary (Admin, Analyst and Viewer)
 
 # API Response Format
 All responses follow a consistent structure: 

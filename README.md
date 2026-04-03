@@ -10,15 +10,15 @@ It demonstrates API design, role-based access control, data modeling, and backen
 - Nodemon
 
 # Setup Instructions
-1. Clone the repository:
+1. Clone the repository: 
    git clone https://github.com/Prithviraj816/finance-data-dashboard.git
 
-2. Install dependencies:
+2. Install dependencies: 
    npm install
 
-3. Create a .env file in root:
-   -PORT = 3000
-   -MONGO_URI = your_mongodb_connection_string
+3. Create a .env file in root: 
+   - PORT = 3000
+   - MONGO_URI = your_mongodb_connection_string
 
 4. Run the server:
    npm run dev
@@ -47,17 +47,17 @@ Role-based access is enforced using middleware that checks the role provided in 
 This ensures proper separation of responsibilities and prevents unauthorized operations.
 
 # API Endpoints
-1. For Users
--POST /api/users       -> Create user (Admin only)
--GET /api/users        -> Get all users (Admin only)
--DELETE /api/users/:id -> Delete user (Admin only)
--PATCH /api/users/:id  -> Update user (Admin only)
+## For Users
+- POST /api/users       -> Create user (Admin only)
+- GET /api/users        -> Get all users (Admin only)
+- DELETE /api/users/:id -> Delete user (Admin only)
+- PATCH /api/users/:id  -> Update user (Admin only)
 
-2. For Records
--POST /api/records       -> Create record (Admin only)
--GET /api/records        -> Get records (Admin and Analyst)
--PATCH /api/records/:id  -> Update record (Admin only)
--DELETE /api/records/:id -> Delete record (Admin only) 
+## For Records
+- POST /api/records       -> Create record (Admin only)
+- GET /api/records        -> Get records (Admin and Analyst)
+- PATCH /api/records/:id  -> Update record (Admin only)
+- DELETE /api/records/:id -> Delete record (Admin only) 
 
 3. For Dashboard
 GET /api/dashboard/summary → Get financial summary (Admin, Analyst and Viewer)

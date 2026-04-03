@@ -18,7 +18,7 @@ It demonstrates API design, role-based access control, data modeling, and backen
 
 3. Create a .env file in root: 
    - PORT = 3000
-   - MONGO_URI = your_mongodb_connection_string
+   - MONGO_URI = mongodb://127.0.0.1:27017/finance-dashboard
 
 4. Run the server:
    npm run dev

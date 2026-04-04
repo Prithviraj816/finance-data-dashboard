@@ -13,10 +13,10 @@ It demonstrates API design, role-based access control, data modeling, and backen
 1. Clone the repository: 
    git clone https://github.com/Prithviraj816/finance-data-dashboard.git
 
-2. Install dependencies: 
+2. Install dependencies in root folder: 
    npm install
 
-3. Create a .env file in root: 
+3. Create a .env file in root folder: 
    - PORT = 3000
    - MONGO_URI = mongodb://127.0.0.1:27017/finance-dashboard
 

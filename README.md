@@ -84,11 +84,11 @@ APIs were tested using Postman with multiple scenarios including:
 - Resource not found cases,
 - Route not found cases,
 - Data integrity checks.
+- You can access the documentation here: https://documenter.getpostman.com/view/53714216/2sBXionW1Q
 
 APIs can be tested using Postman by setting the role in request headers:
-Example:
-Key: role
-Value: admin or analyst or viewer
+- Example:
+Key: role and Value: admin or analyst or viewer
 
 # Assumptions 
 - Authentication is mocked using request headers.
